@@ -10,29 +10,44 @@ h1{
   p{
       text-align: center;
   }
+  .icon{
+      padding: 5%;
+  }
 .btn{
     background-color: white;
     color: black;
     width: 100vw;
-    height: 39.9vh;
+    height: 39.99vh;
 
 }
 
 .btn1{
     width: 80%;
     margin: 0 auto;
+    font-size: 10px;
 }
 .btn2{
     width: 80%;
     margin: 0 auto;
+    font-size: 10px;
 
 }
 a{
     color: orangered;
+    text-decoration: none;
 }
 
 .spacer{
     height: 60vh;
 }
-
+.line{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.082);
+    // position: absolute;
+}
+#txt{
+    text-align: center;
+}
 }

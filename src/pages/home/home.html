@@ -1,17 +1,28 @@
 <ion-content class="main">
 
-<div class="spacer">
+  <div class="spacer">
 
-</div>
+  </div>
 
   <div class="btnflex">
     <div class="btn">
       <br>
       <br>
       <button ion-button block class="btn1">
-        <ion-icon name="logo-facebook"></ion-icon>JOIN US WITH FACEBOOK</button>
-      <h1>OR</h1>
+        <ion-icon class="icon" name="logo-facebook"></ion-icon>JOIN US WITH FACEBOOK</button>
 
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div class="line"></div>
+          </ion-col>
+          <ion-col col-2 id="txt">OR</ion-col>
+          <ion-col>
+            <div class="line"></div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
       <button ion-button block color="btn2" class="btn2" (click)="Next()">JOIN US WITH A COMPLICATED FORM</button>
       <br>
       <br>

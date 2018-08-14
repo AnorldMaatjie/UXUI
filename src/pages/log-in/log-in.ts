@@ -22,7 +22,7 @@ export class LogInPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad LogInPage');
   }
-  // back(){
-  //   this.navCtrl.push(HomePage);
-  // }
+  back(){
+    this.navCtrl.push(HomePage);
+  }
 }
