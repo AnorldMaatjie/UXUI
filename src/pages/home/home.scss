@@ -1,0 +1,38 @@
+page-home {
+    .main{ background-image: url('../../assets/imgs/aa.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+}
+  p{
+      text-align: center;
+  }
+.btn{
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: 39.9vh;
+
+}
+
+.btn1{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn2{
+    width: 80%;
+    margin: 0 auto;
+
+}
+a{
+    color: orangered;
+}
+
+.spacer{
+    height: 60vh;
+}
+
+}

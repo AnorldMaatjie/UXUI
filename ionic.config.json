@@ -1,0 +1,7 @@
+{
+  "name": "UXUI",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
