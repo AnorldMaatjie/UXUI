@@ -1,7 +1,9 @@
 page-log-in {
-    .main{ background-image: url('../../assets/imgs/w.jpg');
+    .main{ background-image: url();
         background-attachment: fixed;
         background-size: cover;
+        height: 100%;
+        width: 100%;
     }  
   
 #label{
@@ -15,7 +17,7 @@ h1{
       text-align: center;
   }
 a{
-    color: orangered;
+    color: 	#E34640;
     text-decoration: none;
 }
 
@@ -24,8 +26,11 @@ a{
     font-size: 10px;
 }
 .body{
-
-    margin-top: 50%;
+    position: relative;
+    top: -20%;
+    height: 40%;
+   
+  
 }
 .input{
     background-color: rgba(0, 0, 0, 0);
@@ -33,4 +38,29 @@ a{
 .btn2{
     font-size: 12px;
 }
+.picture{
+    position: relative;
+    height: 50%;
+}
+.pic1{
+    position: relative;
+    left:  10%;
+    top: -22%;
+    width: 100%;
+    text-align: right;
+}
+.pic2{
+    position: relative;
+    text-align: right;
+    
+    top: -30%;
+ 
+  
+
+}
+.icon{
+    position: relative;
+  
+}
+
 }
